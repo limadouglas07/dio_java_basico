@@ -1,5 +1,8 @@
 public class Operadores {
     public static void main(String[] args) {
+        String nome1 = "Douglas";
+        String nome2 = new String("Douglas"); //quando utilizamos objetos e textos utilizamos o metodo "equals"..
+        System.out.println(nome1.equals(nome2));
         
         int numero = 5;
         numero += 1; // ou numero++;
